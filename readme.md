@@ -2,38 +2,59 @@ For 100 000 items (Java 17, Ram 16gb, Intel Core i3-3220):
 
 Linked vs Array insert to the end:
 
-LinkedList: 15 ms
+ArrayList: 15 ms
 
-ArrayList: 11 ms
+LinkedList: 17 ms
 
 Linked vs Array insert to the start:
 
-LinkedList: 31 ms
+ArrayList: 1170 ms
 
-ArrayList: 1159 ms
+LinkedList: 16 ms
 
 Linked vs Array insert to the center:
 
-LinkedList: 10668 ms
+ArrayList: 470 ms
 
-ArrayList: 375 ms
+LinkedList: 12582 ms
 
 ---------------------------------------
 
 Linked vs Array getting from the end:
 
-ArrayList: 8 ms
+ArrayList: 9 ms
 
-LinkedList: 3 ms
+LinkedList: 5 ms
 
 Linked vs Array getting from the start:
 
-ArrayList: 2 ms
+ArrayList: 4 ms
 
-LinkedList: 3 ms
+LinkedList: 5 ms
 
 Linked vs Array getting from the center:
 
-ArrayList: 11 ms
+ArrayList: 3 ms
 
-LinkedList: 10775 ms
+LinkedList: 12182 ms
+
+---------------------------------------
+
+Linked vs Array delete from the end:
+
+ArrayList: 14 ms
+
+LinkedList: 7 ms
+
+Linked vs Array delete from the start:
+
+ArrayList: 1007 ms
+
+LinkedList: 6 ms
+
+Linked vs Array delete from the center:
+
+ArrayList: 464 ms
+
+LinkedList: 5819 ms
+
